@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Work+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+/* Header Section Styles Start */
+header {
+  background-color: #ddd;
+  background: url(../img/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  text-align: end;
+  position: absolute;
+  right: 250px;
+  top: 220px;
+}
+.header-title {
+  font-weight: bolder;
+  font-size: 60px;
+}
+.header-description {
+  width: 370px;
+  color: #444343;
+  margin: 35px 0;
+}
+.primary-btn {
+  border: none;
+  font-size: 16px;
+  padding: 15px 22px;
+  border-radius: 5px;
+  background-color: #F15B22;
+  color: #fff;
+  cursor: pointer;
+  width: 150px;
+}
+.primary-btn:hover {
+  background-color: #c5410de8;
+  transition: 0.3s;
+}
+/* Header Section Styles End */
