@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lustria&family=Work+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 /* Header Section Styles Start */
 header {
@@ -35,7 +35,7 @@ header {
   font-size: 16px;
   padding: 15px 22px;
   border-radius: 5px;
-  background-color: #F15B22;
+  background-color: #f15b22;
   color: #fff;
   cursor: pointer;
   width: 150px;
@@ -45,33 +45,87 @@ header {
   transition: 0.3s;
 }
 /* Header Section Styles End */
-main{
+main {
   max-width: 1100px;
 }
 
 /* Failure Section Style Start */
-.failures-section{
+.failures-section {
   background: url(../img/person.png) no-repeat;
   height: 700px;
   display: flex;
-  background-position: 370px ;
+  background-position: 370px;
   margin-top: 200px;
-  
 }
-.failures-content{
+.failures-content {
   position: absolute;
   right: 250px;
   margin-top: 200px;
   margin-right: 450px;
 }
-.failures-section .header-title{
+.failures-section .header-title {
   font-size: 45px;
   font-weight: bolder;
 }
-.failures-list i{
-  color: #16D887;
+.failures-list i {
+  color: #16d887;
 }
-.failures-content .header-description, .failures-list{
+.failures-content .header-description,
+.failures-list {
   line-height: 25px;
 }
 /* Failure Section Styles End */
+
+/* My Plans Section Styles Start */
+
+.my-plans h2 {
+  font-size: 40px;
+  text-align: end;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-weight: bolder;
+}
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 150px;
+  padding-left: 550px;
+}
+.plans h3 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.plans p {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.mindset {
+  background: url(../img/watch.png), url(../img/gradient1.png);
+  width: 1200px;
+  height: 300px;
+  background-size: cover;
+  margin: 100px 45%;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  padding: 60px 50px;
+}
+.mindset h3 {
+  color: #fff;
+  font-size: 34px;
+  padding-bottom: 25px;
+}
+.secondary-btn {
+  color: #005fac;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.secondary-btn:hover {
+  color: #fff;
+  background-color: #005fac;
+  transition: 0.3s;
+}
