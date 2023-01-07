@@ -24,11 +24,11 @@ header {
 .header-title {
   font-weight: bolder;
   font-size: 60px;
-  color: #fff;
+  color: #000;
 }
 .header-description {
   width: 370px;
-  color: #fff;
+  color: #000;
   margin: 35px 0;
 }
 .primary-btn {
@@ -155,7 +155,7 @@ main {
   font-size: 16px;
   line-height: 25px;
 }
-.section-sub-description{
+.section-sub-description {
   margin-bottom: 10px;
   margin-top: 20px;
 }
@@ -187,7 +187,7 @@ main {
   font-size: 16px;
   padding: 15px 30px;
   border-radius: 5px;
-  background: #005FAC;
+  background: #005fac;
   color: #fff;
 }
 .suscribe-container input[type="submit"]:hover {
